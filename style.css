@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock-dial{
+    height: 500px;
+    width: 500px;
+    border: 20px solid #fc0606;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    background-color: #050405;
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(241, 74, 8);;
+    border-radius: 50%;
+    position: absolute;
+   top: 220px;
+    left: 220px;
+    
+} 
+.hour{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00818a;
+    position: absolute;
+    font-size: 40px;
+    color: rgb(243, 241, 241);
+}
+.hour-1{
+    bottom: 170px;
+    left: 120px;
+}
+.hour-2{
+    bottom: 90px;
+    margin-left: 190px;
+}
+.hour-3{
+    bottom: -10px;
+    left: 220px;
+}
+.hour-4{
+    bottom: -110px;
+    left: 195px;
+}
+.hour-5{
+    bottom: -190px;
+    left: 130px;
+}
+.hour-6{
+    bottom: -230px;
+    left: 0px;
+}
+.hour-7{
+    bottom: -190px;
+    right: 130px;
+}
+.hour-8{
+    bottom: -110px;
+    right: 195px;
+}
+.hour-9{
+    bottom: -10px;
+    right: 220px;
+}
+.hour-10{
+    bottom: 80px;
+    right: 180px;
+}
+.hour-11{
+    bottom: 160px;
+    right: 110px;
+}
+.hour-12{
+    bottom: 200px;
+    right: -8px;
+   
+}
+.minute-hand-wrapper, .hour-hand-wrapper, .second-hand-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.minute-hand .hand {
+    width: 4px;
+    height: 200px;
+    background-color: #133d41;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: rgb(241, 74, 8);
+}
+
+.minute-hand .arrow {
+    font-size: 50px;
+    color: rgb(241, 74, 8);
+    
+    transform: rotate(180deg);
+    position: absolute;
+    right: -11px;
+    bottom: 160px;
+}
+ .hour-hand .hand {
+    width: 4px;
+    height: 140px;
+    background-color: #133d41;
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    background-color: rgb(241, 74, 8);
+}
+
+ .hour-hand .arrow {
+    font-size: 50px;
+    color: rgb(241, 74, 8);
+    transform: rotate(180deg);
+    position: absolute;
+    right: -11px;
+    bottom: 100px;
+}
+
+.second-hand .hand {
+    width: 1px;
+    height: 180px;
+    background-color: #133d41;
+    position: absolute;
+    left: 50%; 
+    background-color: rgb(241, 74, 8);
+}
